@@ -8,8 +8,6 @@ public class CodingApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(CodingApplication.class, args);
-		System.out.println("PORT ENV: " + System.getenv("PORT"));
-
 	}
 
 }
